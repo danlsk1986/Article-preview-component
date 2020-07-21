@@ -1,0 +1,291 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  img{
+      max-width: 100%;
+  }
+
+  .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    font-family: 'Manrope', sans-serif;
+    background-color: #edf2f8;
+    padding: 20px;  
+}
+
+.box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* margin: 30px 0 0 0; */
+    width: 325px;
+    border-radius: 5px 5px;
+}
+
+.box .drawers{
+    position: relative;
+    width: 326px;
+    height: 203;
+    border-radius: 5px 5px 0px 0px; 
+}
+
+.text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.text h4{
+  margin: 0;
+  font-size: 12px;
+  padding: 5px 15px;
+  
+}
+
+.text p{
+  font-size: 9px;
+  padding: 0 15px;
+}
+
+.shareDisplay{
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+   background-color: #ffffff;
+   /* background-color: #4b566c; */
+   padding: 0 10px;
+   border-radius: 0 0 5px 5px;
+   
+}
+
+.michelle{
+    position: relative;
+    display: flex;
+    width: 200px;
+    margin: 10px;   
+}
+
+.michelle img {
+   border-radius: 50%;    
+   width: 25px;
+   height: 25px;
+   margin: 0 10px 0 0;
+}
+
+
+
+.michelleInfo p{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   font-size: 9px;
+}
+
+.michelleInfo p:first-child{
+   font-weight: 700;
+}
+
+.share{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
+.shareMobile {
+    position: relative;
+    background-color: #4b566c;
+    display: none;
+    flex-direction: row;   
+    width: 100%;
+    bottom: 0px;
+    justify-content: space-around;
+    padding: 0px 20px 0px 30px;     
+}
+
+.shareMobile p{
+  color: #ffffff;
+  margin-top: 14px;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: hsl(212, 23%, 69%);
+  margin-right: 5px;;
+}
+
+.shareMobile img{
+   width: 14px;
+   height: 14px;
+   margin: 10px 5px;
+}
+
+.shareDesktop {  
+  display: none;      
+ }
+
+
+
+#arrow{
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #eff4fa;
+}
+
+
+
+  @media screen and (min-width: 600px) {
+    .container{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 814px;
+        height: 454px;     
+        font-family: 'Manrope', sans-serif;
+        background-color: #edf2f8   
+    }
+  
+    .box{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 416px;
+        height: 164px;
+        background-color: #ffffff;
+        border-radius: 5px 5px;
+    }
+  
+    .box .drawers{
+      position: relative;
+      width: 172px;
+      height: 172px;
+      border-radius: 5px 0px 0px 5px;
+    }
+  
+    .text {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        
+    }
+  
+    .text h4{
+      margin: 0;
+      font-size: 12px;
+      
+    }
+  
+   .text p{
+      font-size: 9px;
+   }
+  
+   .shareDisplay{
+       position: relative;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       width: 100%;
+       border-radius: 0 0 5px 0px;
+       
+   }
+  
+   .michelle{
+       position: relative;
+       display: flex;     
+       width: 183px;     
+   }
+  
+   .michelle img {
+       border-radius: 50%;    
+       width: 25px;
+       height: 25px;
+       margin: 0 10px 0 0;
+   }
+  
+   .michelleInfo p{
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       margin: 0;
+   }
+  
+   .michelleInfo p:first-child{
+       font-weight: 700;
+   }
+  
+   
+  .shareDesktop {
+    position: absolute;
+    background-color: #4b566c;
+    display: none;
+    flex-direction: row;
+    border-radius: 10px;
+    width: 180px;
+    top: -48px;
+    justify-content: space-around;
+    left: 130px;
+    padding: 0px 10px;
+         
+   }
+  
+   .shareDesktop p{
+      color: #ffffff;
+      margin-top: 14px;
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: hsl(212, 23%, 69%);
+      margin-right: 5px;;
+   }
+  
+   .shareDesktop img{
+       width: 14px;
+       height: 14px;
+       margin: 10px 5px;
+   }
+  
+   .triangle{
+      position: absolute;
+      bottom: -8px;
+      width: 0px;
+      height: 0px;
+      border-style: solid;
+      border-width: 10px 10px 0 10px;
+      border-color: #4b566c transparent transparent transparent;
+   }
+  
+   #arrow{
+      width: 20px;
+      height: 20px;
+      padding: 5px;
+      border-radius: 50%;
+   }
+  
+    
+  }
+
+
+
+
+  
