@@ -50,16 +50,15 @@ html {
     background-color: #ffffff;
 }
 
-.text h4{
-  margin: 0;
-  font-size: 12px;
-  padding: 5px 15px;
-  
-}
+.text h3{
+  padding: 10px 20px 0 20px;
+  margin-bottom: 0;
+}  
+
 
 .text p{
-  font-size: 9px;
-  padding: 0 15px;
+  font-size: 13px;
+  padding: 0 20px;
 }
 
 .shareDisplay{
@@ -156,30 +155,30 @@ html {
 
   @media screen and (min-width: 600px) {
     .container{
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 814px;
-        height: 454px;     
-        font-family: 'Manrope', sans-serif;
-        background-color: #edf2f8   
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* width: 814px; */
+      height: 720px;
+      font-family: 'Manrope', sans-serif;
+      background-color: #edf2f8;  
     }
   
     .box{
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        width: 416px;
-        height: 164px;
-        background-color: #ffffff;
-        border-radius: 5px 5px;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      width: 600px;
+      height: 200px;
+      background-color: #ffffff;
+      border-radius: 0 0 5px 5px;
     }
   
     .box .drawers{
       position: relative;
-      width: 172px;
-      height: 172px;
+      width: 223px;
+      height: 223px;
       border-radius: 5px 0px 0px 5px;
     }
   
@@ -190,14 +189,13 @@ html {
         
     }
   
-    .text h4{
-      margin: 0;
-      font-size: 12px;
-      
+    .text h3{
+      padding: 0 20px;      
     }
   
    .text p{
-      font-size: 9px;
+      font-size: 13px;
+      margin: 0 auto;
    }
   
    .shareDisplay{
@@ -213,13 +211,13 @@ html {
    .michelle{
        position: relative;
        display: flex;     
-       width: 183px;     
+       width: 250px;     
    }
   
    .michelle img {
        border-radius: 50%;    
-       width: 25px;
-       height: 25px;
+       width: 33px;
+       height: 33px;
        margin: 0 10px 0 0;
    }
   
@@ -241,18 +239,19 @@ html {
     display: none;
     flex-direction: row;
     border-radius: 10px;
-    width: 180px;
-    top: -48px;
+    width: 230px;
+    height: 45px;
+    top: -50px;
     justify-content: space-around;
-    left: 130px;
-    padding: 0px 10px;
+    left: 236px;
+    padding: 0 10px;
          
    }
   
    .shareDesktop p{
       color: #ffffff;
       margin-top: 14px;
-      font-size: 9px;
+      /* font-size: 9px; */
       text-transform: uppercase;
       letter-spacing: 3px;
       color: hsl(212, 23%, 69%);
@@ -260,9 +259,9 @@ html {
    }
   
    .shareDesktop img{
-       width: 14px;
-       height: 14px;
-       margin: 10px 5px;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
    }
   
    .triangle{
@@ -276,10 +275,10 @@ html {
    }
   
    #arrow{
-      width: 20px;
-      height: 20px;
-      padding: 5px;
-      border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    padding: 10px;
+    border-radius: 50%;
    }
   
     
